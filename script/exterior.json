@@ -1,112 +1,124 @@
 {
     "exterior": [
         {
-            "id": 21,
-            "title": "Radio",
+            "id": 41,
+            "title": "Grille DIY",
             "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
-            "price": 250,
-            "brand": "Pionner",
-            "category": "accesories",
-            "thumbnail": "https://m.media-amazon.com/images/I/61UZWlDspbL._AC_UY218_.jpg"
+            "price": 54.50,
+            "brand": "TRQ",
+            "category": "exteriors",
+            "model": "NEXUS",
+            "thumbnail": "https://cdn.1aauto.com/partimage/BGR/1ABGR00308/2252938b50fb4203aabdfe1f8c59c7d2_235.jpg"
         },
         {
-            "id": 22,
-            "title": "Interior Cleaner Set",
+            "id": 42,
+            "title": "Light Set",
             "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
-            "price": 100,
-            "brand": "Sonax",
-            "category": "accesories",
-            "thumbnail": "https://m.media-amazon.com/images/I/71AnwxuXBzL._AC_UL320_.jpg"
+            "price": 324.95,
+            "brand": "NTY",
+            "category": "exteriors",
+            "model": "MERCEDES W213-R",
+            "thumbnail": "https://cdn.1aauto.com/partimage/LTP/1ALTP01194/e8e09be2fffe4bdfa44a75abb2d35986_235.jpg"
         },
         {
-            "id": 23,
-            "title": "Phone Holder",
+            "id": 43,
+            "title": "Sunroof Wind Deflector",
             "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
-            "price": 5,
-            "brand": "Michelin",
-            "category": "accesories",
-            "thumbnail": "https://m.media-amazon.com/images/I/51LQicOri6S._AC_UL320_.jpg"
+            "price": 25.50,
+            "brand": "DECOR",
+            "category": "exteriors",
+            "model": "FORD ESCORT",
+            "thumbnail": "https://images.oreillyauto.com/parts/img/medium/category_parttype/01059.jpg"
         },
         {
-            "id": 24,
-            "title": "ChipPower GS2",
+            "id": 44,
+            "title": "Body Kit",
             "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
-            "price": 100,
-            "brand": "GS2",
-            "category": "accesories",
-            "thumbnail": "https://m.media-amazon.com/images/I/71P0uxzeT3L._AC_UL320_.jpg"
+            "price": 225.65,
+            "brand": "WERKS",
+            "model": "BMW F80 M3",
+            "category": "exteriors",
+            "thumbnail": "https://www.2mautowerks.com/wp-content/uploads/2020/03/2mautowerks-bmw-gt3-m3-f80-widebody-kit-8.png"
         },
         {
-            "id": 25,
-            "title": "Car Charger",
+            "id": 45,
+            "title": "Technic Body Kit",
             "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
-            "price": 15,
-            "brand": "DJI",
-            "category": "accesories",
-            "thumbnail": "https://m.media-amazon.com/images/I/61RXPryg1XL._AC_UL320_.jpg"
+            "price": 230.66,
+            "brand": "ARKA",
+            "model": "BMW F30 M",
+            "category": "exteriors",
+            "thumbnail": "https://www.aksoytuning.com/resimler/urunler/1280x1280/2_1733622033818800.jpg"
         },
         {
-            "id": 26,
-            "title": "Car Key Case",
+            "id": 46,
+            "title": "Rear Diffuser",
             "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
-            "price": 14.10,
-            "brand": "Carbon",
-            "category": "accesories",
-            "thumbnail": "https://m.media-amazon.com/images/I/61l7JF-BdEL._AC_UL320_.jpg"
+            "price": 350.56,
+            "brand": "CARBON",
+            "category": "exteriors",
+            "model": "MERCEDES C63 AMG",
+            "thumbnail": "http://cdn.shopify.com/s/files/1/0558/7425/7105/products/psm-dynamic-mercedes-c63-amg-c205-rear-diffuser-carbon-mcc21rdcf_dc3a54c9-9d85-4c30-9dac-0a9c6edd1f36_1200x1200.png?v=1663516047"
         },
         {
-            "id": 27,
-            "title": "Bottle Holder",
+            "id": 47,
+            "title": "Roof Spoiler",
             "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
-            "price": 7,
-            "brand": "HP",
-            "category": "accesories",
-            "thumbnail": "https://m.media-amazon.com/images/I/613ZN+mwDqS._AC_UL320_.jpg"
+            "price": 240.50,
+            "brand": "BOSCH",
+            "category": "exteriors",
+            "model": "MERCEDES A45 AMG",
+            "thumbnail": "https://cdn.webshopapp.com/shops/258831/files/357148289/image.jpg"
         },
         {
-            "id": 28,
-            "title": "Steering Wheel Cover",
+            "id": 48,
+            "title": "Wing Lip",
             "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
-            "price": 300,
-            "brand": "NaciZuo",
-            "category": "accesories",
-            "thumbnail": "https://m.media-amazon.com/images/I/61QF+MEsjyL._AC_UL320_.jpg"
+            "price": 115.15,
+            "brand": "RENN",
+            "category": "exteriors",
+            "model": "MERCEDES AMG GTR",
+            "thumbnail": "https://www.vividracing.com/wm.php/images/202006/RENNTech_88.190.AMG.GTR.WL_9.jpg"
         },
         {
-            "id": 25,
-            "title": "Car Seat Cover",
+            "id": 49,
+            "title": "Roof Antenna Cover",
             "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
-            "price": 33.52,
-            "brand": "WALSER",
-            "category": "accesories",
-            "thumbnail": "https://m.media-amazon.com/images/I/81V4qu7YoDL._AC_UL320_.jpg"
+            "price": 63.66,
+            "brand": "AUTOTecknic",
+            "category": "exteriors",
+            "model": "BMW F15 X5",
+            "thumbnail": "https://www.vividracing.com/images/ATK-BM-0335.jpg"
         },
         {
-            "id": 26,
-            "title": "Gear Lever Gaiter",
+            "id": 50,
+            "title": "Manual Wiper",
             "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
-            "price": 14.10,
+            "price": 24.11,
             "brand": "TOPRAN",
-            "category": "accesories",
-            "thumbnail": "https://m.media-amazon.com/images/I/51nk2OCBgxL._AC_UY218_.jpg"
+            "category": "exteriors",
+            "model": "Universal",
+            "thumbnail": "https://www.vividracing.com/images/vr/3760/2022/FR_50-50000KIT.jpg"
         },
         {
-            "id": 27,
-            "title": "Foot Pump",
+            "id": 51,
+            "title": "Door Handle Covers",
             "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
-            "price": 21.22,
-            "brand": "YATO",
-            "category": "accesories",
-            "thumbnail": "https://m.media-amazon.com/images/I/61+aYpVbScL._AC_UL320_.jpg"
+            "price": 61.22,
+            "brand": "DRYCarbon",
+            "category": "exteriors",
+            "model": "BMW F22",
+            "thumbnail": "https://www.vividracing.com/images/BM-0365.jpg"
         },
         {
-            "id": 28,
-            "title": "Parking Sensor",
+            "id": 52,
+            "title": "3D Profile Decal",
             "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
-            "price": 16.20,
-            "brand": "SKV",
-            "category": "accesories",
-            "thumbnail": "https://media.autodoc.de/360_photos/13449670/preview.jpg"
+            "price": 14.95,
+            "brand": "APR",
+            "category": "exteriors",
+            "model": "Universal",
+            "thumbnail": "https://www.vividracing.com/images/sema/HJQF/A1000006_001.jpg"
         }
     ]
 }
