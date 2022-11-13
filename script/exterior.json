@@ -1,0 +1,112 @@
+{
+    "exterior": [
+        {
+            "id": 21,
+            "title": "Radio",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
+            "price": 250,
+            "brand": "Pionner",
+            "category": "accesories",
+            "thumbnail": "https://m.media-amazon.com/images/I/61UZWlDspbL._AC_UY218_.jpg"
+        },
+        {
+            "id": 22,
+            "title": "Interior Cleaner Set",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
+            "price": 100,
+            "brand": "Sonax",
+            "category": "accesories",
+            "thumbnail": "https://m.media-amazon.com/images/I/71AnwxuXBzL._AC_UL320_.jpg"
+        },
+        {
+            "id": 23,
+            "title": "Phone Holder",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
+            "price": 5,
+            "brand": "Michelin",
+            "category": "accesories",
+            "thumbnail": "https://m.media-amazon.com/images/I/51LQicOri6S._AC_UL320_.jpg"
+        },
+        {
+            "id": 24,
+            "title": "ChipPower GS2",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
+            "price": 100,
+            "brand": "GS2",
+            "category": "accesories",
+            "thumbnail": "https://m.media-amazon.com/images/I/71P0uxzeT3L._AC_UL320_.jpg"
+        },
+        {
+            "id": 25,
+            "title": "Car Charger",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
+            "price": 15,
+            "brand": "DJI",
+            "category": "accesories",
+            "thumbnail": "https://m.media-amazon.com/images/I/61RXPryg1XL._AC_UL320_.jpg"
+        },
+        {
+            "id": 26,
+            "title": "Car Key Case",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
+            "price": 14.10,
+            "brand": "Carbon",
+            "category": "accesories",
+            "thumbnail": "https://m.media-amazon.com/images/I/61l7JF-BdEL._AC_UL320_.jpg"
+        },
+        {
+            "id": 27,
+            "title": "Bottle Holder",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
+            "price": 7,
+            "brand": "HP",
+            "category": "accesories",
+            "thumbnail": "https://m.media-amazon.com/images/I/613ZN+mwDqS._AC_UL320_.jpg"
+        },
+        {
+            "id": 28,
+            "title": "Steering Wheel Cover",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
+            "price": 300,
+            "brand": "NaciZuo",
+            "category": "accesories",
+            "thumbnail": "https://m.media-amazon.com/images/I/61QF+MEsjyL._AC_UL320_.jpg"
+        },
+        {
+            "id": 25,
+            "title": "Car Seat Cover",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
+            "price": 33.52,
+            "brand": "WALSER",
+            "category": "accesories",
+            "thumbnail": "https://m.media-amazon.com/images/I/81V4qu7YoDL._AC_UL320_.jpg"
+        },
+        {
+            "id": 26,
+            "title": "Gear Lever Gaiter",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
+            "price": 14.10,
+            "brand": "TOPRAN",
+            "category": "accesories",
+            "thumbnail": "https://m.media-amazon.com/images/I/51nk2OCBgxL._AC_UY218_.jpg"
+        },
+        {
+            "id": 27,
+            "title": "Foot Pump",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
+            "price": 21.22,
+            "brand": "YATO",
+            "category": "accesories",
+            "thumbnail": "https://m.media-amazon.com/images/I/61+aYpVbScL._AC_UL320_.jpg"
+        },
+        {
+            "id": 28,
+            "title": "Parking Sensor",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
+            "price": 16.20,
+            "brand": "SKV",
+            "category": "accesories",
+            "thumbnail": "https://media.autodoc.de/360_photos/13449670/preview.jpg"
+        }
+    ]
+}
