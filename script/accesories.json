@@ -7,6 +7,7 @@
             "price": 250,
             "brand": "Pionner",
             "category": "accesories",
+            "model": "All Cars",
             "thumbnail": "https://m.media-amazon.com/images/I/61UZWlDspbL._AC_UY218_.jpg"
         },
         {
@@ -16,6 +17,7 @@
             "price": 100,
             "brand": "Sonax",
             "category": "accesories",
+            "model": "All Cars",
             "thumbnail": "https://m.media-amazon.com/images/I/71AnwxuXBzL._AC_UL320_.jpg"
         },
         {
@@ -25,6 +27,7 @@
             "price": 5,
             "brand": "Michelin",
             "category": "accesories",
+            "model": "All Cars",
             "thumbnail": "https://m.media-amazon.com/images/I/51LQicOri6S._AC_UL320_.jpg"
         },
         {
@@ -34,6 +37,7 @@
             "price": 100,
             "brand": "GS2",
             "category": "accesories",
+            "model": "All Cars",
             "thumbnail": "https://m.media-amazon.com/images/I/71P0uxzeT3L._AC_UL320_.jpg"
         },
         {
@@ -43,6 +47,7 @@
             "price": 15,
             "brand": "DJI",
             "category": "accesories",
+            "model": "All Cars",
             "thumbnail": "https://m.media-amazon.com/images/I/61RXPryg1XL._AC_UL320_.jpg"
         },
         {
@@ -52,6 +57,7 @@
             "price": 14.10,
             "brand": "Carbon",
             "category": "accesories",
+            "model": "AUDI",
             "thumbnail": "https://m.media-amazon.com/images/I/61l7JF-BdEL._AC_UL320_.jpg"
         },
         {
@@ -61,6 +67,7 @@
             "price": 7,
             "brand": "HP",
             "category": "accesories",
+            "model": "All Cars",
             "thumbnail": "https://m.media-amazon.com/images/I/613ZN+mwDqS._AC_UL320_.jpg"
         },
         {
@@ -70,6 +77,7 @@
             "price": 300,
             "brand": "NaciZuo",
             "category": "accesories",
+            "model": "VW GOLF 7",
             "thumbnail": "https://m.media-amazon.com/images/I/61QF+MEsjyL._AC_UL320_.jpg"
         },
         {
@@ -79,6 +87,7 @@
             "price": 33.52,
             "brand": "WALSER",
             "category": "accesories",
+            "model": "All Cars",
             "thumbnail": "https://m.media-amazon.com/images/I/81V4qu7YoDL._AC_UL320_.jpg"
         },
         {
@@ -88,6 +97,7 @@
             "price": 14.10,
             "brand": "TOPRAN",
             "category": "accesories",
+            "model": "All Manual Cars",
             "thumbnail": "https://m.media-amazon.com/images/I/51nk2OCBgxL._AC_UY218_.jpg"
         },
         {
@@ -97,6 +107,7 @@
             "price": 21.22,
             "brand": "YATO",
             "category": "accesories",
+            "model": "All Cars",
             "thumbnail": "https://m.media-amazon.com/images/I/61+aYpVbScL._AC_UL320_.jpg"
         },
         {
@@ -106,6 +117,7 @@
             "price": 16.20,
             "brand": "SKV",
             "category": "accesories",
+            "model": "All Cars without sensor",
             "thumbnail": "https://media.autodoc.de/360_photos/13449670/preview.jpg"
         }
     ]

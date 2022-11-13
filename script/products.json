@@ -7,6 +7,7 @@
             "price": 320,
             "brand": "ATE",
             "category": "autoparts",
+            "model": "BMW All Series",
             "thumbnail": "https://cld.partsimg.com/image/upload/d_noimage.jpg,h_210,w_210,c_pad,f_auto,q_auto,dpr_auto,e_sharpen/images/p15kc2421_1.jpg"
         },
         {
@@ -16,6 +17,7 @@
             "price": 15.56,
             "brand": "LPR",
             "category": "autoparts",
+            "model": "VW GOLF II-V",
             "thumbnail": "https://media.autoparts4less.com/c/Wheel_Cylinders_Parts_3.jpg?d=400x400"
         },
         {
@@ -25,6 +27,7 @@
             "price": 17.58,
             "brand": "ASMETAL",
             "category": "autoparts",
+            "model": "Golf V-VI",
             "thumbnail": "https://media.autodoc.de/360_photos/1770905/preview.jpg"
         },
         {
@@ -34,6 +37,7 @@
             "price": 35.55,
             "brand": "FAG",
             "category": "autoparts",
+            "model": "Golf V",
             "thumbnail": "https://media.autodoc.de/360_photos/7999650/preview.jpg"
         },
         {
@@ -43,6 +47,7 @@
             "price": 3.40,
             "brand": "RIDEX",
             "category": "autoparts",
+            "model": "VW Group",
             "thumbnail": "https://media.autodoc.de/360_photos/8094859/preview.jpg"
         },
         {
@@ -52,6 +57,7 @@
             "price": 12.20,
             "brand": "RODRUNER",
             "category": "autoparts",
+            "model": "Mercedes E-Class",
             "thumbnail": "https://media.autodoc.de/360_photos/8000444/preview.jpg"
         },
         {
@@ -61,6 +67,7 @@
             "price": 46.60,
             "brand": "FEBI",
             "category": "autoparts",
+            "model": "All Cars",
             "thumbnail": "https://media.autodoc.de/360_photos/13633953/preview.jpg"
         },
         {
@@ -70,6 +77,7 @@
             "price": 20.35,
             "brand": "MEYLE",
             "category": "autoparts",
+            "model": "Tiguan",
             "thumbnail": "https://media.autodoc.de/360_photos/8001021/preview.jpg"
         },
         {
@@ -79,6 +87,7 @@
             "price": 1.14,
             "brand": "RODRUNER",
             "category": "autoparts",
+            "model": "All Cars",
             "thumbnail": "https://media.autodoc.de/360_photos/13632100/preview.jpg"
         },
         {
@@ -88,6 +97,7 @@
             "price": 46.60,
             "brand": "SWAG",
             "category": "autoparts",
+            "model": "All Cars",
             "thumbnail": "https://media.autodoc.de/360_photos/7918735/preview.jpg"
         },
         {
@@ -97,6 +107,7 @@
             "price": 3.35,
             "brand": "MEYLE",
             "category": "autoparts",
+            "model": "All Cars",
             "thumbnail": "https://media.autodoc.de/360_photos/7069309/preview.jpg"
         },
         {
@@ -106,6 +117,7 @@
             "price": 94.22,
             "brand": "EIBACH",
             "category": "autoparts",
+            "model": "All Cars",
             "thumbnail": "https://media.autodoc.de/360_photos/7938482/preview.jpg"
         }
     ]

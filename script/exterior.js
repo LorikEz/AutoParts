@@ -7,7 +7,7 @@ $("#cartProduct").text(iconNrProduct);
 
 
 class Products {
-    constructor(id, brand, description, price, thumbnail, title,model) {
+    constructor(id, brand, description, price, thumbnail, title, model) {
         this.id = id;
         this.brand = brand;
         this.description = description;

@@ -147,28 +147,43 @@
     </div>
 
 
+
+
     <div class="modal" id="myModal" data-bs-backdrop="static">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Product Details</h4>
+                    <h4 class="modal-title" id="fullname"></h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
                     <div class="row" id="productsDetails">
-                        <div class="col-md-6 mt-2">
-                            <img src="" alt="" id="image" class="w-50 h-50">
+                        <div class="col-md-4 mt-2">
+                            <img src="" alt="" id="image" class="w-50 h-100">
                         </div>
-                        <div class="col-md-6 mt-2">
-                            <h6 id="fullname"></h6>
-                            <p id="description"></p>
+                        <div class="col-md-8 mt-2">
+
+                            <div class="productDetailsDiv mt-2">
+                                <h6 class="textDetails">Compatible: </h6>
+                                <h6 id="modeli" class="textDetailsTwo"></h6>
+                            </div>
+
+                            <div class="productDetailsDiv mt-2">
+                                <h6 class="textDetails">Brand: </h6>
+                                <h6 id="brandi" class="textDetailsTwo"></h6>
+                            </div>
+
+                            <div class="productDetailsDiv mt-2">
+                                <h6 class="textDetails">Description:</h6>
+                                <h6 id="description" class="textDetailsTwo"></h6>
+                            </div>
+                            <div class="productDetailsDiv mt-2">
+                                <h6 class="textDetails">Return period:</h6>
+                                <h6 class="textDetailsTwo">10 Days</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger " data-bs-dismiss="modal">CLOSE</button>
-                </div>
-
             </div>
         </div>
     </div>
