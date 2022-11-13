@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav {
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+.navbar-nav>a:hover {
+    color: rgb(0, 79, 146);
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.login-cart {
+    text-align: center;
+}
+
+.account-link>li {
+    list-style: none;
+    display: inline;
+}
+
+.services {
+    height: 50px;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.details>li {
+    list-style: none;
+    display: inline-block;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.instock {
+    width: 200px;
+    text-align: center;
+
+}
+
+/* login */
+
+.account-link {
+    margin-top: 10px;
+}
+
+.loginTxt {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Slider */
+
+.d-block {
+    height: 400px;
+    width: 748px;
+}
+
+/*SHOP CATEGORY*/
+
+.shopCategory {
+    letter-spacing: 2.4px;
+    text-align: center;
+    position: relative;
+    color: rgb(0, 79, 146);
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.car {
+    color: rgb(0, 79, 146);
+    height: 30px;
+    text-align: center;
+}
+
+/*Carta*/
+
+.cartaHover:hover {
+    background-color: lightgray;
+}
+
+/*Alerti (mesazhi)*/
+
+#showMsg{
+    position: fixed;
+    top: 20px;
+    right: 0px;
+    width: auto;
+    width: 100%;
+    border-radius: unset;
+    z-index: 9999;
+}
+
+/*card per category*/
+
+
+.subContent {
+    border: 1px solid rgb(199, 199, 199);
+    width: 400px;
+    height: 300px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.subContent-h4 {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.subContent-img {
+    margin-top: 50px;
+    box-sizing: border-box;
+    height: 200px;
+}
+
+.allCategories {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/*Time shipping*/
+
+.time-h1 {
+    color: rgb(238, 98, 48);
+    font-size: 70px;
+}
+
+.time-h2 {
+    font-size: 50px;
+}
+
+.time-p {
+    font-size: 25px;
+}
+
+/*Featured Brands*/
+
+.brandImg{
+    height: 120px;
+}
+
+/*why shop us */
+
+.containerBox {
+    background-image: url("https://pikwizard.com/photos/fa63d8a02c733c06b8c87bfbd3bacc6b-l.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+
+.shopUs-text {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2.4px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 90px;
+}
+
+.shop-h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.photoShop {
+    height: 70px;
+    width: 80px;
+    margin-top: 230px;
+
+}
+
+.shop-h3 {
+    color: white;
+    text-align: center;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: rgb(240, 239, 239);
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.footer-about {
+    width: 25%;
+    height: 300px;
+    margin-top: 70px;
+    margin-right: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.footer-about>p {
+    color: black;
+    margin-top: 25px;
+}
+
+.footer-about>h3:nth-child(3) {
+    margin-top: 50px;
+}
+
+.email {
+    margin-top: 20px;
+}
+
+.email>input {
+    height: 50px;
+}
+
+.email>input:first-child {
+    width: 240px;
+    border-radius: 3%;
+    border-radius: 0.5em;
+}
+
+.email>input:last-child {
+    width: 70px;
+    border-radius: 2em 2em;
+    background-color: rgb(255, 30, 0);
+    color: black;
+    border: none;
+}
+
+.navigation {
+    width: 15%;
+    height: 300px;
+    margin-top: 70px;
+}
+
+.navigation>h3 {
+    margin-bottom: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navigation>ul li {
+    list-style: none;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.underline {
+    width: 62%;
+    color: black;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+/**/
+.cardAccesories {
+    width: 260px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgAccesories {
+    margin-left: 35px;
+    height: 200px;
+    width: 200px;
+}
+
+/**/
+.getProductDetails {
+    width: 70%;
+}
+
+.iconBuy {
+    width: 50px;
+    height: 25px;
+}
+
+.button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #0D6EFD;
+    height: 37px;
+}
+
+.button4:hover {
+    background-color: #0D6EFD;
+}

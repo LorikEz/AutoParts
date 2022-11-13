@@ -1,0 +1,112 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Brake Pads Set",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+            "price": 320,
+            "brand": "ATE",
+            "category": "autoparts",
+            "thumbnail": "https://cld.partsimg.com/image/upload/d_noimage.jpg,h_210,w_210,c_pad,f_auto,q_auto,dpr_auto,e_sharpen/images/p15kc2421_1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Cylinder",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+            "price": 15.56,
+            "brand": "LPR",
+            "category": "autoparts",
+            "thumbnail": "https://media.autoparts4less.com/c/Wheel_Cylinders_Parts_3.jpg?d=400x400"
+        },
+        {
+            "id": 3,
+            "title": "Anti Roll Bar Link",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+            "price": 17.58,
+            "brand": "ASMETAL",
+            "category": "autoparts",
+            "thumbnail": "https://media.autodoc.de/360_photos/1770905/preview.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Wheel Bearing Kit",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+            "price": 35.55,
+            "brand": "FAG",
+            "category": "autoparts",
+            "thumbnail": "https://media.autodoc.de/360_photos/7999650/preview.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Control Arm",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
+            "price": 3.40,
+            "brand": "RIDEX",
+            "category": "autoparts",
+            "thumbnail": "https://media.autodoc.de/360_photos/8094859/preview.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Ball Joint",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+            "price": 12.20,
+            "brand": "RODRUNER",
+            "category": "autoparts",
+            "thumbnail": "https://media.autodoc.de/360_photos/8000444/preview.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Steering knuckle",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
+            "price": 46.60,
+            "brand": "FEBI",
+            "category": "autoparts",
+            "thumbnail": "https://media.autodoc.de/360_photos/13633953/preview.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Suspension arm",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+            "price": 20.35,
+            "brand": "MEYLE",
+            "category": "autoparts",
+            "thumbnail": "https://media.autodoc.de/360_photos/8001021/preview.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Anti roll bar bush",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+            "price": 1.14,
+            "brand": "RODRUNER",
+            "category": "autoparts",
+            "thumbnail": "https://media.autodoc.de/360_photos/13632100/preview.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Wheel Spacer",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum  ",
+            "price": 46.60,
+            "brand": "SWAG",
+            "category": "autoparts",
+            "thumbnail": "https://media.autodoc.de/360_photos/7918735/preview.jpg"
+        },
+        {
+            "id": 11,
+            "title": "Bumb Stop",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+            "price": 3.35,
+            "brand": "MEYLE",
+            "category": "autoparts",
+            "thumbnail": "https://media.autodoc.de/360_photos/7069309/preview.jpg"
+        },
+        {
+            "id": 12,
+            "title": "Anti Roll Bar ",
+            "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+            "price": 94.22,
+            "brand": "EIBACH",
+            "category": "autoparts",
+            "thumbnail": "https://media.autodoc.de/360_photos/7938482/preview.jpg"
+        }
+    ]
+}

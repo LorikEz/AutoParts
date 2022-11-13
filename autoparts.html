@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+    <script src="https://kit.fontawesome.com/5a0cb8a05f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/syle.css">
+
+    <title>Auto Parts - Category</title>
+</head>
+
+<body>
+
+
+    <header>
+
+
+
+        <nav class="navbar navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <form class="d-flex ">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+                <div class="justify-content-end">
+                    <a class="navbar-brand" href="carts.html">
+                        <i class="fas fa-cart-plus cartaHover"></i>
+                        <span id="cartProduct">0</span>
+                    </a>
+                </div>
+
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light mt-5">
+            <div class="container-fluid ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="autoparts.html">Auto Parts</a>
+                        <a class="nav-link" href="accesorie.html">Accesories</a>
+                        <a class="nav-link" href="exterior.html">Exterior</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg-light services">
+            <ul class="details">
+                <li class="instock">
+                    <i class="fa-solid fa-circle-check"></i> Time
+                </li>
+                <li class="instock">
+                    <i class="fa-solid fa-hand-holding-dollar"></i> Lowest Price
+                </li>
+                <li class="instock">
+                    <i class="fa-solid fa-truck-fast"></i> Free Shipping
+                </li>
+                <li class="instock">
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>Free Returns
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="row justify-content-end mt-3"> </div>
+
+        <div class="row mt-3" id="products">
+
+        </div>
+
+        <div id="cartProductsHiden" hidden>
+
+        </div>
+    </div>
+
+
+
+
+    <footer class="footer mt-5">
+
+        <div class="footer-about">
+            <h3 style="color: red;">About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ut quos assumenda nesciunt eaque quam laudantium consequuntur accusantium
+                aspernatur quia magni corporis libero harum deleniti,
+            </p>
+
+            <h3 style="color: red;">Newsletter</h3>
+
+            <div class="email">
+                <input type="email" placeholder="Email...">
+                <input type="submit" value="SEND">
+            </div>
+
+        </div>
+
+        <div class="navigation">
+            <h3 style="color: red;">Navigation</h3>
+
+            <ul>
+                <li>About Us</li>
+                <li>Testimonials</li>
+                <li>Terms of Service</li>
+                <li>Privacy</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+
+        <div class="navigation">
+            <h3 style="color: red;">Navigation</h3>
+
+            <ul>
+                <li>About Us</li>
+                <li>Testimonials</li>
+                <li>Terms of Service</li>
+                <li>Privacy</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+
+        <div class="underline">
+            <hr>
+        </div>
+
+        <div class="copyright">
+            <h4>Copyright &copy; Lorik Hasani</h4>
+        </div>
+
+    </footer>
+
+    <div id="showMsg" hidden>
+        <div class="alert alert-success" id="setMsg"></div>
+    </div>
+
+
+    <div class="modal" id="myModal" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Product Details</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row" id="productsDetails">
+                        <div class="col-md-6 mt-2">
+                            <img src="" alt="" id="image" class="w-50 h-50">
+                        </div>
+                        <div class="col-md-6 mt-2">
+                            <h6 id="fullname"></h6>
+                            <p id="description"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger " data-bs-dismiss="modal">CLOSE</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script/cart.js"></script>
+
+</body>
+
+</html>

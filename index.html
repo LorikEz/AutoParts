@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/5a0cb8a05f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/syle.css">
+    <title>Auto Parts | Lolo</title>
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid ">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+                <div class="login-cart">
+                    <ul class="account-link me-2 navbar-brand">
+                        <li>
+                            <i style='font-size:20px' class='fas'>&#xf406;</i>
+                            <a class="loginTxt" href="login.html">LOGIN</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="autoparts.html">Auto Parts</a>
+                        <a class="nav-link" href="accesorie.html">Accesories</a>
+                        <a class="nav-link" href="exterior.html">Exterior</a>
+                    </div>
+                </div>
+                <div class="justify-content-end">
+                    <a class="navbar-brand" href="carts.html">
+                        <i class="fas fa-cart-plus cartaHover"></i>
+                        <span id="cartProduct">0</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg-light services">
+            <ul class="details">
+                <li class="instock">
+                    <i class="fa-solid fa-circle-check"></i> Time
+                </li>
+                <li class="instock">
+                    <i class="fa-solid fa-hand-holding-dollar"></i> Lowest Price
+                </li>
+                <li class="instock">
+                    <i class="fa-solid fa-truck-fast"></i> Free Shipping
+                </li>
+                <li class="instock">
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>Free Returns
+                </li>
+            </ul>
+
+
+        </div>
+
+
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://www.autoparts4less.com/_next/image?url=https%3A%2F%2Fmedia.autoparts4less.com%2Fhb%2F20221017161813169_0d12e4e399734376afc4759ed23be58e.jpg%3Fd%3D1920x510&w=1920&q=75"
+                        alt="Los Angeles" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.autoparts4less.com/_next/image?url=https%3A%2F%2Fmedia.autoparts4less.com%2Fsbp%2F20221020172755512_9ecc4a1ef434405497f1cae88aedfbb1.jpg%3Fd%3D1920x510&w=1920&q=75"
+                        alt="Chicago" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.autoparts4less.com/_next/image?url=https%3A%2F%2Fmedia.autoparts4less.com%2Fhb%2F20221007012924124_384a375196204354abb380290026d22f.jpg%3Fd%3D1920x510&w=1920&q=75"
+                        alt="New York" class="d-block w-100">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h3 class="shopCategory"><i class="fa-solid fa-car-side"></i></h3>
+            <h3 class="shopCategory">
+                SHOP BY CATEGORY
+            </h3>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-4  shadow-lg bg-body rounded subContent">
+                    <a href="autoparts.html">
+                        <img class="img-fluid subContent-img" src="img/autparts.png" alt="">
+                        <h4 class="subContent-h4">Auto Parts</h4>
+                    </a>
+                </div>
+                <div class="col-md-4  shadow-lg bg-body rounded subContent ">
+                    <a href="accesorie.html">
+                        <img class="img-fluid subContent-img " src="img/interior.png" alt="">
+                        <h4 class="subContent-h4">Accesories</h4>
+                    </a>
+                </div>
+                <div class="col-md-4  shadow-lg bg-body rounded subContent ">
+                    <a href="exterior.html">
+                        <img class="img-fluid subContent-img " src="img/exterior.png" alt="">
+                        <div class="subContent-h4">
+                            <h4>Exterior</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="allCategories mt-4">
+                <a href="#">
+                    <button type="button" class="btn btn-outline-primary">View All Categories</button>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <section>
+        <div class="container">
+            <div class="row mt-5 ">
+                <div class="col-md-6 mt-5">
+                    <img class="img-fluid" src="img/shipPhoto.jpeg" alt="">
+                </div>
+                <div class="col-md-6 mt-5">
+                    <h1 class="time-h1"><b>GET IT ON TIME</b></h1>
+                    <h2 class="time-h2"><b>READY TO SHIP <br>GUARANTEED</b></h2>
+                    <p class="time-p">Choose from thousands of products ready to ship on time guaranteed. Look for the
+                        time check mark
+                        on eligible products.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid mt-5">
+        <div class="featuredBrands">
+            <h4>FEATURED BRANDS </h4>
+            <hr>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-2">
+                <img class="img-fluid brandImg" src="img/brand1.png" alt="">
+            </div>
+            <div class="col-md-2">
+                <img class="img-fluid brandImg" src="img/brand2.png" alt="">
+            </div>
+            <div class="col-md-2">
+                <img class="img-fluid brandImg" src="img/brand3.png" alt="">
+            </div>
+            <div class="col-md-2">
+                <img class="img-fluid brandImg" src="img/brand4.png" alt="">
+            </div>
+            <div class="col-md-2">
+                <img class="img-fluid brandImg" src="img/brand5.png" alt="">
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <div class="container-fluid mt-5 containerBox">
+        <div class="shopUs-text">
+            <h2 class="shop-h2">WHY SHOP WITH US?</h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <img class=" mx-auto d-block photoShop" src="img/freeReturn.png" alt="">
+                <h3 class="shop-h3">Free Returns</h3>
+                <p class="shop-h3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem neque molestiae vel nihil et!</p>
+            </div>
+            <div class="col-md-3">
+                <img class="mx-auto d-block photoShop" src="img/freeShippingg.png" alt="">
+                <h3 class="shop-h3">Free Shipping</h3>
+                <p class="shop-h3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem neque molestiae vel nihil et!</p>
+            </div>
+            <div class="col-md-3">
+                <img class="mx-auto d-block photoShop" src="img/lowestPricee.png" alt="">
+                <h3 class="shop-h3">Guaranteed Lowest Price</h3>
+                <p class="shop-h3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem neque molestiae vel nihil et!</p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+
+        <div class="footer-about">
+            <h3 style="color: red;">About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ut quos assumenda nesciunt eaque quam laudantium consequuntur accusantium
+                aspernatur quia magni corporis libero harum deleniti,
+            </p>
+
+            <h3 style="color: red;">Newsletter</h3>
+
+            <div class="email">
+                <input type="email" placeholder="Email...">
+                <input type="submit" value="SEND">
+            </div>
+
+        </div>
+
+        <div class="navigation">
+            <h3 style="color: red;">Navigation</h3>
+
+            <ul>
+                <li>About Us</li>
+                <li>Testimonials</li>
+                <li>Terms of Service</li>
+                <li>Privacy</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+
+        <div class="navigation">
+            <h3 style="color: red;">Navigation</h3>
+
+            <ul>
+                <li>About Us</li>
+                <li>Testimonials</li>
+                <li>Terms of Service</li>
+                <li>Privacy</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+
+        <div class="underline">
+            <hr>
+        </div>
+
+        <div class="copyright">
+            <h4>All Rights Reserved &copy; Lorik Hasani</h4>
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script/accesorie.js"></script>
+</body>
+
+</html>
