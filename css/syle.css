@@ -312,3 +312,21 @@
 .button4:hover {
     background-color: #0D6EFD;
 }
+
+
+/*Details modal*/
+
+.productDetailsDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.textDetails{
+    font-weight: unset;
+}
+
+.textDetailsTwo{
+    text-indent: 10px;
+}
+
+/**/

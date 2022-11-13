@@ -7,13 +7,14 @@ $("#cartProduct").text(iconNrProduct);
 
 
 class Products {
-    constructor(id, brand, description, price, thumbnail, title) {
+    constructor(id, brand, description, price, thumbnail, title,model) {
         this.id = id;
         this.brand = brand;
         this.description = description;
         this.price = price;
         this.thumbnail = thumbnail;
         this.title = title;
+        this.model = model;
     }
 
     static generateCards(obj) {
@@ -25,8 +26,8 @@ class Products {
               <h5 class="card-title">${obj.title}</h5>
               <p class="card-text" style="font-size:15px;">${obj.brand}</p>
               <p class="card-text" style="font-size:20px; font-weight:bold;">${obj.price} $</p>
-              <button data-prodid="${obj.id}" data-name="${obj.brand}"  data-title="${obj.title}" data-desc="${obj.description}" data-img="${obj.thumbnail}"  class="btn btn-primary getProductDetails ">Details</button>
-              <button data-id="${obj.id}" data-name="${obj.brand}" data-title="${obj.title}" data-price="${obj.price}" data-img="${obj.thumbnail}" class="button button4 addToCart">
+              <button data-prodid="${obj.id}" data-name="${obj.brand}"  data-title="${obj.title}" data-desc="${obj.description}" data-model="${obj.model}" data-img="${obj.thumbnail}"  class="btn btn-primary getProductDetails ">Details</button>
+              <button data-id="${obj.id}" data-name="${obj.brand}" data-title="${obj.title}" data-price="${obj.price}" data-model="${obj.model}" data-img="${obj.thumbnail}" class="button button4 addToCart">
               <i class="fas fa-cart-plus iconBuy"></i>
               </button>
             </div>
@@ -148,16 +149,19 @@ $(".totalProduct").change(function () {
 
 $(document).on("click", ".getProductDetails", function () {
 
-    let name = $(this).data("name");
+    let title = $(this).data("title");
     let descr = $(this).data("desc");
+    let modeli = $(this).data("model");
+    let brand = $(this).data("name");
     let imgSrc = $(this).data("img");
 
     // console.log("linku" + imgSrc);
 
-    let fullname = $("#fullname").text(name)
+    let fullname = $("#fullname").text(title)
     let description = $("#description").text(descr);
+    let model = $("#modeli").text(modeli);
+    let brandi = $("#brandi").text(brand)
     let image = $("#image").attr("src", imgSrc);
-
 
 
     $("#myModal").modal("show");
