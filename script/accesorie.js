@@ -19,8 +19,8 @@ class Products {
 
     static generateCards(obj) {
         return `
-        <div class="col-md-3 mt-3">
-        <div class="card">
+        <div class="col-md-3 mt-3 box">
+        <div class="card ">
             <img src="${obj.thumbnail}" class="card-img-top" alt="..." style="height: 220px;">
             <div class="card-body">
               <h5 class="card-title">${obj.title}</h5>
