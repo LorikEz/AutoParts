@@ -25,10 +25,10 @@ class Products {
             <div class="card-body">
               <h5 class="card-title">${obj.title}</h5>
               <p class="card-text" style="font-size:15px;">${obj.brand}</p>
-              <p class="card-text" style="font-size:20px; font-weight:bold;">${obj.price} $</p>
+              <p class="card-text priceText">${obj.price} $</p>
               <button data-prodid="${obj.id}" data-name="${obj.brand}"  data-title="${obj.title}" data-desc="${obj.description}" data-model="${obj.model}" data-img="${obj.thumbnail}"  class="btn btn-primary getProductDetails ">Details</button>
-              <button data-id="${obj.id}" data-name="${obj.brand}" data-title="${obj.title}" data-price="${obj.price}" data-model="${obj.model}" data-img="${obj.thumbnail}" class="button button4 addToCart">
-              <i class="fas fa-cart-plus iconBuy"></i>
+              <button data-id="${obj.id}" data-name="${obj.brand}" data-title="${obj.title}" data-price="${obj.price}" data-model="${obj.model}" data-img="${obj.thumbnail}" class="addToCart">
+              <img src="img/cartShop.png" alt="" class="imageCart">
               </button>
             </div>
           </div>
