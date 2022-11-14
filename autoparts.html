@@ -13,14 +13,17 @@
     <link rel="stylesheet" href="css/syle.css">
 
     <title>Auto Parts - Category</title>
+
+    <style>
+        .hide {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
 
-
-    <header>
-
-
+    <header class="header">
 
         <nav class="navbar navbar-light bg-light fixed-top">
             <div class="container-fluid">
@@ -46,9 +49,9 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
+                    <div class="navbar-nav ">
                         <a class="nav-link" href="index.html">Home</a>
-                        <a class="nav-link" href="autoparts.html">Auto Parts</a>
+                        <a class="nav-link active" href="autoparts.html">Auto Parts</a>
                         <a class="nav-link" href="accesorie.html">Accesories</a>
                         <a class="nav-link" href="exterior.html">Exterior</a>
                     </div>
@@ -74,7 +77,6 @@
         </div>
     </header>
 
-
     <div class="container">
         <div class="row justify-content-end mt-3"> </div>
 
@@ -87,8 +89,13 @@
         </div>
     </div>
 
+    <div id="showMsg" hidden>
+        <div class="alert alert-success" id="setMsg"></div>
+    </div>
 
-
+    <div class="scrollTop" id="scrollTop">
+        <img id="scrollTopImg" src="img/scrollTop.png" alt="">
+    </div>
 
     <footer class="footer mt-5">
 
@@ -142,13 +149,6 @@
 
     </footer>
 
-    <div id="showMsg" hidden>
-        <div class="alert alert-success" id="setMsg"></div>
-    </div>
-
-
-
-
     <div class="modal" id="myModal" data-bs-backdrop="static">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -191,6 +191,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="script/cart.js"></script>
+    <script src="script/scroll.js"></script>
 
 </body>
 

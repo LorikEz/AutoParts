@@ -120,31 +120,6 @@ $(document).on("click", ".addToCart", function () {
     returnMsgSuccess("Produkti " + titleP + " u shtua me sukses!");
 });
 
-//GetData
-$("#cartProducts").html(localStorage.getItem("cart"));
-
-$(".clearCart").click(function () {
-    localStorage.removeItem("cart");
-    localStorage.removeItem("carticon");
-    location.reload();
-});
-
-$(".totalProduct").change(function () {
-    let value = $(this).val();
-    let prid = $(this).data("prid");
-    let price = $(this).data("price");
-
-    let amount = Number.parseFloat(price) * value;
-
-    $(`#amount_${prid}`).text(amount);
-
-    $(this).attr("value", value);
-
-    localStorage.setItem("cart", $("#cartProducts").html());
-
-});
-
-
 //Details 
 
 $(document).on("click", ".getProductDetails", function () {

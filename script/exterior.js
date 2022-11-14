@@ -55,7 +55,6 @@ class DataAttribute {
         this.price = price;
         this.id = id;
         this.quantity = quantity;
-
     }
 
     static addToCart(obj) {
@@ -64,8 +63,9 @@ class DataAttribute {
             <td>${obj.price}</td>
             <td>
                 <input type="number" value="${obj.quantity}" class="totalProduct" data-prid="${obj.id}" data-price="${obj.price}" >
-                </td>
+            </td>
             <td id="amount_${obj.id}">${Number.parseFloat(obj.price) * Number.parseInt(obj.quantity)}</td>
+        </tr>
         </tr>`;
 
 
@@ -118,30 +118,6 @@ $(document).on("click", ".addToCart", function () {
     }
     let titleP = $(this).data("title");
     returnMsgSuccess("Produkti " + titleP + " u shtua me sukses!");
-});
-
-//GetData
-$("#cartProducts").html(localStorage.getItem("cart"));
-
-$(".clearCart").click(function () {
-    localStorage.removeItem("cart");
-    localStorage.removeItem("carticon");
-    location.reload();
-});
-
-$(".totalProduct").change(function () {
-    let value = $(this).val();
-    let prid = $(this).data("prid");
-    let price = $(this).data("price");
-
-    let amount = Number.parseFloat(price) * value;
-
-    $(`#amount_${prid}`).text(amount);
-
-    $(this).attr("value", value);
-
-    localStorage.setItem("cart", $("#cartProducts").html());
-
 });
 
 

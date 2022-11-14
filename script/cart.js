@@ -5,7 +5,6 @@ $("#cartProductsHiden").html(localStorage.getItem("cart"));
 let iconNrProduct = localStorage.getItem("carticon") == null ? localStorage.setItem("carticon", 0) : localStorage.getItem("carticon");
 $("#cartProduct").text(iconNrProduct);
 
-
 class Products {
     constructor(id, brand, description, price, thumbnail, title, model) {
         this.id = id;
@@ -45,8 +44,17 @@ fetch("script/products.json")
     .then(data => {
         for (let index = 0; index < data.products.length; index++) {
             $("#products").append(Products.generateCards(data.products[index]));
+            // data.products.sort((a, b) => b.price - a.price);
         }
     });
+
+// $(document).on("click", "#btnSort", function () {
+//     alert("clicked");
+//     Products.sort(function (a, b) {
+//         return a.price - b.price;
+//     });
+//     location.reload();
+// });
 
 class DataAttribute {
     constructor(img, name, price, id, quantity) {
@@ -63,8 +71,10 @@ class DataAttribute {
             <td>${obj.price}</td>
             <td>
                 <input type="number" value="${obj.quantity}" class="totalProduct" data-prid="${obj.id}" data-price="${obj.price}" >
-                </td>
+            </td>
             <td id="amount_${obj.id}">${Number.parseFloat(obj.price) * Number.parseInt(obj.quantity)}</td>
+        </tr>
+        
         </tr>`;
 
 
@@ -110,39 +120,14 @@ $(document).on("click", ".addToCart", function () {
         dataProduct.quantity = currentQuantity;
         DataAttribute.addToCart(dataProduct);
 
-
-
         // localStorage.setItem("cart", $("#cartProductsHiden").html());
         // $("#cartProductsHiden").html(localStorage.getItem("cart"));
     }
-
     let titleP = $(this).data("title");
     returnMsgSuccess("Produkti " + titleP + " u shtua me sukses!");
 });
 
-//GetData
-$("#cartProducts").html(localStorage.getItem("cart"));
-
-$(".clearCart").click(function () {
-    localStorage.removeItem("cart");
-    localStorage.removeItem("carticon");
-    location.reload();
-});
-
-$(".totalProduct").change(function () {
-    let value = $(this).val();
-    let prid = $(this).data("prid");
-    let price = $(this).data("price");
-
-    let amount = Number.parseFloat(price) * value;
-
-    $(`#amount_${prid}`).text(amount);
-
-    $(this).attr("value", value);
-
-    localStorage.setItem("cart", $("#cartProducts").html());
-
-});
+//Sorting 
 
 //Details 
 

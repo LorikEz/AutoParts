@@ -52,15 +52,56 @@
 
 
             </tbody>
-
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th class="subtotal" id="sum"></th>
+                </tr>
+            </thead>
         </table>
     </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="script/cart.js"></script>
+    <!-- <script src="script/cart.js"></script> -->
 
+    <script>
+        $("#cartProducts").html(localStorage.getItem("cart"));
+
+        $(".clearCart").click(function () {
+            localStorage.removeItem("cart");
+            localStorage.removeItem("carticon");
+            location.reload();
+        });
+
+        $(".totalProduct").change(function () {
+            let value = $(this).val();
+            let prid = $(this).data("prid");
+            let price = $(this).data("price");
+
+            let amount = Number.parseFloat(price) * value;
+
+            $(`#amount_${prid}`).text(amount);
+
+            $(this).attr("value", value);
+
+            localStorage.setItem("cart", $("#cartProducts").html());
+
+        });
+
+        // function calc_total() {
+        //     var sum = 0;
+        //     let prid = $(this).data("prid");
+        //     $(`#amount_${prid}`).each(function () {
+        //         sum += parseFloat($(this).text());
+        //     });
+        //     $('#sum').text(sum);
+        // }
+
+    </script>
 </body>
 
 </html>
