@@ -28,3 +28,30 @@ function scrollFunction() {
         mybutton.style.display = "none";
     }
 }
+
+
+//Butoni per addmore 
+
+$(document).on("click", '#showMore', function () {
+    $("#showLess").prop("disabled", false);
+    $('.container .box:hidden').slice(0, 4).slideDown(100).addClass('show-hide');
+    if ($(".container .box:hidden").length == 0) {
+        $("#showMoreActive").prop("disabled", true);
+    }
+});
+
+// $(document).on('click', "#showLess", function () {
+//     if ($(".show-hide").length > 4) {
+
+//         let x = $(".show-hide").length;
+//         for (let index = 0; index <= x; index++) {
+//             $(".show-hide").slice(x - 4, x).removeclass("show-hide").slideUp();
+//             $("#showMore").removeAttr('disabled');
+//         }
+//     } else {
+//         $("#showLess").prop("disabled", true);
+//         $(".show-hide").slice(0, 4).removeClass('show-hide').slideUp();
+//     }
+// });
+
+/*---------------------*/

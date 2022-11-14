@@ -77,24 +77,25 @@
         </div>
     </header>
 
-    <div class="container">
-        <div class="row justify-content-end mt-3"> </div>
+    <section id="boxs">
+        <div class="container">
+            <div class="row justify-content-end mt-3"> </div>
 
-        <div class="row mt-3" id="products">
+            <div class="row mt-3" id="products">
 
+            </div>
+
+            <div id="cartProductsHiden" hidden>
+
+            </div>
         </div>
+    </section>
 
-        <div id="cartProductsHiden" hidden>
-
+    <div class="col-md-12 text-center">
+        <div class="button mt-3 d-flex justify-content-center">
+            <button id="showMore" class="btn btn-primary"><span>Show More</span></button>
+            <!-- <button id="showLess" class="btn btn-primary" disabled><span>Show Less</span></button> -->
         </div>
-    </div>
-
-    <div id="showMsg" hidden>
-        <div class="alert alert-success" id="setMsg"></div>
-    </div>
-
-    <div class="scrollTop" id="scrollTop">
-        <img id="scrollTopImg" src="img/scrollTop.png" alt="">
     </div>
 
     <footer class="footer mt-5">
@@ -148,6 +149,14 @@
         </div>
 
     </footer>
+
+    <div id="showMsg" hidden>
+        <div class="alert alert-success" id="setMsg"></div>
+    </div>
+
+    <div class="scrollTop" id="scrollTop">
+        <img id="scrollTopImg" src="img/scrollTop.png" alt="">
+    </div>
 
     <div class="modal" id="myModal" data-bs-backdrop="static">
         <div class="modal-dialog">

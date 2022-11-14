@@ -360,3 +360,12 @@
     width: 90px;
     height: 50px;
 }
+
+/*add more*/
+
+
+#boxs .box:nth-child(n+9) {
+    display: none;
+}
+
+/**/
