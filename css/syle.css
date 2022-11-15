@@ -134,8 +134,17 @@
 .allCategories {
     display: flex;
     justify-content: center;
-
 }
+
+.sortCategories{
+    display: flex;
+    justify-content: center;
+}
+
+.sortCategories > a{
+    margin-left: 10px;
+}
+
 
 
 /*Time shipping*/

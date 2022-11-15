@@ -12,13 +12,19 @@
     <script src="https://kit.fontawesome.com/5a0cb8a05f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/syle.css">
 
-    <title>Accesories - Category</title>
+    <title>Auto Parts - Category</title>
+
+    <style>
+        .hide {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
 
+    <header class="header">
 
-    <header>
         <nav class="navbar navbar-light bg-light fixed-top">
             <div class="container-fluid">
                 <form class="d-flex ">
@@ -43,7 +49,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
+                    <div class="navbar-nav ">
                         <a class="nav-link" href="index.html">Home</a>
                         <a class="nav-link active" href="allcategories.html">Catalogue</a>
                     </div>
@@ -69,7 +75,7 @@
         </div>
     </header>
 
-    <div class="sortCategories mt-3">
+    <div class="sortCategories mt-4">
         <a href="autoparts.html">
             <button type="button" class="btn btn-outline-primary">Auto Parts</button>
         </a>
@@ -77,7 +83,7 @@
             <button type="button" class="btn btn-outline-primary">Exterior</button>
         </a>
         <a href="accesorie.html">
-            <button type="button" class="btn btn-primary">Accesories</button>
+            <button type="button" class="btn btn-outline-primary">Accesories</button>
         </a>
     </div>
 
@@ -85,7 +91,7 @@
         <div class="container">
             <div class="row justify-content-end mt-3"> </div>
 
-            <div class="row mt-3" id="accesories">
+            <div class="row mt-3" id="allcategories">
 
             </div>
 
@@ -101,7 +107,6 @@
             <!-- <button id="showLess" class="btn btn-primary" disabled><span>Show Less</span></button> -->
         </div>
     </div>
-
 
     <footer class="footer mt-5">
 
@@ -155,7 +160,6 @@
 
     </footer>
 
-
     <div id="showMsg" hidden>
         <div class="alert alert-success" id="setMsg"></div>
     </div>
@@ -163,8 +167,6 @@
     <div class="scrollTop" id="scrollTop">
         <img id="scrollTopImg" src="img/scrollTop.png" alt="">
     </div>
-
-
 
     <div class="modal" id="myModal" data-bs-backdrop="static">
         <div class="modal-dialog">
@@ -207,7 +209,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="script/accesorie.js"></script>
+    <script src="script/allcategories.js"></script>
     <script src="script/scroll.js"></script>
 
 </body>
