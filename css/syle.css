@@ -124,7 +124,7 @@
     position: relative;
 }
 
-.subContent:hover{
+.subContent:hover {
     border: 1px solid rgb(0, 79, 146);
 }
 
@@ -511,4 +511,8 @@
     display: none;
 }
 
-/**/
+/*Product Shop*/
+
+.productCards:hover {
+    box-shadow: 0 3px 10px rgb(0, 79, 146); 
+}
