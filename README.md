@@ -1,2 +1,2 @@
 # AutoParts
- E-commerce for auto parts created with html/css/javascript(jquery) 
+created with html/css/javascript(jquery) 
