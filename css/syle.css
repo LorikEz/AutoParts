@@ -216,7 +216,7 @@
 }
 
 .our-team .pic {
-    background: #0d6efd;
+    background: rgb(0, 79, 146);
     transition: all 0.3s ease 0s;
 }
 
@@ -235,7 +235,7 @@
 .our-team .team-content {
     width: 100%;
     padding: 7px 15px;
-    background: #0d6efd;
+    background: rgb(0, 79, 146);
     position: absolute;
     bottom: -30%;
     right: 0;
@@ -296,7 +296,7 @@
     content: "";
     width: 100%;
     height: 100%;
-    background: #0d6efd;
+    background: rgb(0, 79, 146);
     position: absolute;
     top: 0;
     left: -100%;
@@ -336,7 +336,7 @@
 }
 
 .priceText {
-    color: #0d6efd;
+    color: rgb(0, 79, 146);
     font-size: 20px;
     font-weight: bold;
 }
@@ -404,7 +404,7 @@
 .email>input:last-child {
     width: 70px;
     border-radius: 2em 2em;
-    background-color: #0d6efd;
+    background-color: rgb(0, 79, 146);
     color: black;
     border: none;
 }
@@ -419,6 +419,11 @@
     margin-bottom: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.navh3{
+    color: rgb(0, 79, 146);
+}
+
 
 .navigation>ul li {
     list-style: none;
