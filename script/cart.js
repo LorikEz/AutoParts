@@ -81,9 +81,8 @@ class DataAttribute {
             <td>
                 <input type="number" value="${obj.quantity}" class="totalProduct" data-prid="${obj.id}" data-price="${obj.price}" >
             </td>
-            <td id="amount_${obj.id}">${Number.parseFloat(obj.price) * Number.parseInt(obj.quantity)}</td>
-        </tr>
-        
+            <td id="amount_${obj.id}" data-amount="${Number.parseFloat(obj.price) * Number.parseInt(obj.quantity)}">${Number.parseFloat(obj.price) * Number.parseInt(obj.quantity)}</td>
+            <td><button class="deleteRow" data-id="${obj.id}"><img src="img/removeIcon.png"></button></td>
         </tr>`;
 
 
