@@ -15,6 +15,15 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    $("#teamScroll").click(function () {
+        var scrollBrand = document.getElementById('ourTeam').offsetTop;
+        window.scrollTo({ top: scrollBrand - 90, behavior: 'smooth' });
+    });
+});
+
+
+
 //shfaqja e buttoni kur t bomi scroll
 
 let mybutton = document.getElementById("scrollTop");
