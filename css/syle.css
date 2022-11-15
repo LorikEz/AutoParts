@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.logoCar{
+.logoCar {
     width: 200px;
     height: 50px;
 }
@@ -93,6 +93,10 @@
 
 /*Carta*/
 
+#cartProduct {
+    color: rgb(0, 79, 146);
+}
+
 .cartaHover:hover {
     background-color: lightgray;
 }
@@ -120,6 +124,10 @@
     position: relative;
 }
 
+.subContent:hover{
+    border: 1px solid rgb(0, 79, 146);
+}
+
 .subContent-h4 {
     position: absolute;
     box-sizing: border-box;
@@ -132,6 +140,15 @@
     margin-top: 50px;
     box-sizing: border-box;
     height: 200px;
+    width: 350px;
+    position: relative;
+    transition: 1s;
+    margin-left: 12px;
+}
+
+.subContent-img:hover {
+    transform: scale(1.1);
+    z-index: 2;
 }
 
 .allCategories {
@@ -423,7 +440,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.navh3{
+.navh3 {
     color: rgb(0, 79, 146);
 }
 

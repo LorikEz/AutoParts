@@ -41,13 +41,17 @@ function scrollFunction() {
 
 //Butoni per addmore 
 
+//Add more 
+
 $(document).on("click", '#showMore', function () {
     $("#showLess").prop("disabled", false);
     $('.container .box:hidden').slice(0, 4).slideDown(100).addClass('show-hide');
     if ($(".container .box:hidden").length == 0) {
-        $("#showMoreActive").prop("disabled", true);
+        $("#showMore").prop("disabled", true);
     }
 });
+
+//Add less
 
 // $(document).on('click', "#showLess", function () {
 //     if ($(".show-hide").length > 4) {
@@ -62,5 +66,6 @@ $(document).on("click", '#showMore', function () {
 //         $(".show-hide").slice(0, 4).removeClass('show-hide').slideUp();
 //     }
 // });
+
 
 /*---------------------*/
