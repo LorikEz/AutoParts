@@ -48,13 +48,22 @@ fetch("script/products.json")
         }
     });
 
-// $(document).on("click", "#btnSort", function () {
-//     alert("clicked");
-//     Products.sort(function (a, b) {
-//         return a.price - b.price;
-//     });
-//     location.reload();
-// });
+fetch("script/accesories.json")
+    .then(x => x.json())
+    .then(data => {
+        for (let index = 0; index < data.accesories.length; index++) {
+            $("#accesories").append(Products.generateCards(data.accesories[index]));
+        }
+    });
+
+fetch("script/exterior.json")
+    .then(x => x.json())
+    .then(data => {
+        for (let index = 0; index < data.exterior.length; index++) {
+            $("#exterior").append(Products.generateCards(data.exterior[index]));
+        }
+    });
+
 
 class DataAttribute {
     constructor(img, name, price, id, quantity) {

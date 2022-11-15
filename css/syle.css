@@ -3,12 +3,15 @@
     padding: 0;
 }
 
+.logoCar{
+    width: 200px;
+    height: 50px;
+}
+
 .navbar-nav {
     margin: 5px;
     padding: 5px;
 }
-
-
 
 .navbar-nav>a:hover {
     color: rgb(0, 79, 146);
