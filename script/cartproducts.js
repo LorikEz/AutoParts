@@ -24,7 +24,6 @@ $(".totalProduct").change(function () {
     localStorage.setItem("cart", $("#cartProducts").html());
     calculateTotal();
 
-
 });
 
 $(".deleteRow").click(function () {
@@ -40,7 +39,6 @@ $(".deleteRow").click(function () {
     }
     calculateTotal();
 });
-
 
 function calculateTotal() {
 
