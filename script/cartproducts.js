@@ -72,3 +72,4 @@ function calculateTotal() {
         $("#setFooter").html('');
     }
 }
+
