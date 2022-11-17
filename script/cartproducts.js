@@ -32,12 +32,15 @@ $(".deleteRow").click(function () {
     $(`tr[data-id="${dataID}"]`).remove();
     localStorage.setItem("cart", $("#cartProducts").html());
     let countRowProducts = $("#cartProducts >tr").length;
-    if (countRowProducts - 1) {
+    if (countRowProducts == 0) {
         localStorage.removeItem("cart");
-        localStorage.removeItem("carticon");
-        location.reload();
     }
     calculateTotal();
+
+
+    let reCountProduct = $(".cartProduct").length;
+    localStorage.setItem("carticon", reCountProduct);
+
 });
 
 function calculateTotal() {
@@ -55,7 +58,7 @@ function calculateTotal() {
         let footer = `
             <tr>
                 <td colspan="4" class="text-end">SubTotal</td>
-                <td>${(totals).toFixed(2)}</td>
+                <td>$${(totals).toFixed(2)}</td>
             </tr>
             <tr >
                 <td colspan="4" class="text-end">TVSH 10%</td>

@@ -68,11 +68,11 @@ class DataAttribute {
     static addToCart(obj) {
         let createRow = `<tr data-id="${obj.id}" class="cartProduct">
             <td><img src="${obj.img}" height="100" width="100"> ${obj.title}</td>
-            <td>${obj.price}</td>
+            <td>$${obj.price}</td>
             <td>
                 <input type="number" value="${obj.quantity}" class="totalProduct" data-prid="${obj.id}" data-price="${obj.price}" >
             </td>
-            <td id="amount_${obj.id}" data-amount="${Number.parseFloat(obj.price) * Number.parseInt(obj.quantity)}">${Number.parseFloat(obj.price) * Number.parseInt(obj.quantity)}</td>
+            <td id="amount_${obj.id}" data-amount="${Number.parseFloat(obj.price) * Number.parseInt(obj.quantity)}">$${Number.parseFloat(obj.price) * Number.parseInt(obj.quantity)}</td>
             <td><button class="deleteRow" data-id="${obj.id}"><img src="img/removeIcon.png"></button></td>
         </tr>`;
 
