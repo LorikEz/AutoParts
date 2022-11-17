@@ -6,7 +6,7 @@ calculateTotal();
 $(".clearCart").click(function () {
     localStorage.removeItem("cart");
     localStorage.removeItem("carticon");
-    location.reload();
+    location.reload();    
 });
 
 $(".totalProduct").change(function () {
@@ -41,6 +41,8 @@ $(".deleteRow").click(function () {
     let reCountProduct = $(".cartProduct").length;
     localStorage.setItem("carticon", reCountProduct);
 
+    //Alert mesazhi
+    returnMsgSuccess("Produkti u largua nga shporta me sukses!");
 });
 
 function calculateTotal() {
@@ -76,3 +78,13 @@ function calculateTotal() {
     }
 }
 
+/* Mesazh alerti */
+function returnMsgSuccess(msg) {
+    $("#showMsg").prop("hidden", false);
+    $("#setMsg").text(msg);
+
+    setTimeout(function () {
+        $("#showMsg").prop("hidden", true);
+        $("#setMsg").text('');
+    }, 3000);
+}

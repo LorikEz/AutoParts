@@ -76,7 +76,7 @@ class DataAttribute {
 
     static addToCart(obj) {
         let createRow = `<tr data-id="${obj.id}" class="cartProduct">
-            <td><img src="${obj.img}" height="100" width="100"> ${obj.title}</td>
+            <td><img src="${obj.img}" height="100" width="100" > ${obj.title}</td>
             <td>$${obj.price}</td>
             <td>
                 <input type="number" value="${obj.quantity}" class="totalProduct" data-prid="${obj.id}" data-price="${obj.price}" >
